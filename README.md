@@ -90,6 +90,7 @@ NOTICE: THESE ARE MY FIXES, THEY MIGHT NOT APPLY TO YOU EXACTLY THE SAME AND THI
     So I ran `$ flutter config --android-sdk=/home/hazem/Storage/Android/Sdk`
 
 - For `✗ cmdline-tools component is missing`, I downloaded *Command line tools only* from https://developer.android.com/studio#downloads Then I extracted the archive to downloads, went into the dir where `sdkmanager` executable is and ran this command to install cmdline-tools to the SDK dir from above `$ ./sdkmanager --sdk_root=/home/hazem/Storage/Android/Sdk "cmdline-tools;latest"`
+-  Eventually you will have to run `$ flutter doctor --android-licenses` and type `y` and hit enter to accept licenses
 
 ## Result
 
